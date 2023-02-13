@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "node-mongo",
+    "dateExported": "2023-02-13T00:23:20.558Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a6055c87-c360-450c-a2f5-3d13adbf102f",
+            "colId": "d87f44d3-4776-4588-9dbf-7cc796618dc3",
+            "containerId": "",
+            "name": "Criar pessoa",
+            "url": "{{server}}/person",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-02-11T22:06:58.483Z",
+            "modified": "2023-02-12T01:16:57.740Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"\",\n  \"salary\": 1800,\n  \"approved\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ecf4d362-799f-41c3-8262-57571a149b34",
+            "colId": "d87f44d3-4776-4588-9dbf-7cc796618dc3",
+            "containerId": "",
+            "name": "Todas as pessoas",
+            "url": "{{server}}/person",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-02-12T01:21:24.130Z",
+            "modified": "2023-02-12T01:21:31.506Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d6eefc21-c935-4b01-b992-1e0545487723",
+            "colId": "d87f44d3-4776-4588-9dbf-7cc796618dc3",
+            "containerId": "",
+            "name": "Pessoa por ID",
+            "url": "{{server}}/person/63e83dcf9fe4e4a6eb288ce6",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-02-12T01:27:36.210Z",
+            "modified": "2023-02-12T02:18:25.949Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0048fdc2-3789-4397-871d-b6d0e7ff42a8",
+            "colId": "d87f44d3-4776-4588-9dbf-7cc796618dc3",
+            "containerId": "",
+            "name": "Atualizar pessoa",
+            "url": "{{server}}/person/63e83dcf9fe4e4a6eb288ce6",
+            "method": "PATCH",
+            "sortNum": 50000,
+            "created": "2023-02-12T02:17:42.547Z",
+            "modified": "2023-02-12T02:21:30.148Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"salary\": 2500,\n  \"approved\":false\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "dca94147-c015-4ca6-8fdb-321ad66f9f02",
+            "colId": "d87f44d3-4776-4588-9dbf-7cc796618dc3",
+            "containerId": "",
+            "name": "Excluir pessoa",
+            "url": "{{server}}/person/63e83dcf9fe4e4a6eb288ce6",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-02-12T12:30:01.871Z",
+            "modified": "2023-02-12T12:31:00.683Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
